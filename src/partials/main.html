@@ -8,7 +8,7 @@
         like crazy.<br/>Jelly Boom drops you into a playful universe ruled by four tiny jellies who love motion, color, and chain
         reactions. Every action sends ripples across the board. The longer the flow continues, the stronger the jelly energy
         becomes.</p>
-        <a class="home-link" href="#demo">
+        <a class="home-link btn" href="#demo">
             <p>Enter the Jelly World</p>
         </a>
     </div>
@@ -207,4 +207,42 @@
                 </ul>
             </div>
         </div>
+</section>
+<section class="demo-section" id="demo">
+    <div class="container demo-container">
+        <div class="title-wrapper">
+            <img src="/img/ellipse.png" alt="ellipse" loading="lazy">
+            <h2 class="play-title">Game</h2>
+        </div>
+        <div class="play-wrapper">
+            <h3 class="play-subtitle">Play Jelly Boom</h3>
+            <p class="play-text">Keep it bouncing.</p>
+        </div>
+        <div class="demo-wrapper" id="game">
+            <picture>
+                <source srcset="
+                /img/demo/demo-desk.png 1x,
+                /img/demo/demo-desk@2x.png 2x
+                " media="(min-width: 1440px)" />
+                <source srcset="
+                /img/demo/demo-mob.png 1x,
+                /img/demo/demo-mob@2x.png 2x
+                " media="(max-width: 1439px)" />
+                <img class="game-img" src="/img/demo/demo-mob.png" alt="Play Jelly Boom" loading="lazy" />
+            </picture>
+
+
+            <div class="iframe-wrapper">
+                <iframe id="gameIframe" name="gameIframe"></iframe>
+
+                <button id="closeIframeBtn" class="hidden-close-btn" aria-label="Close">
+                    <img class="close-img" src="/img/demo/close.png" alt="Close">
+                </button>
+            </div>
+        </div>
+        <a class="demo-btn" href="#"
+            data-game-url="https://demo.evoplay.games/demo/fullstate/html5/evoplay/jellyboom">
+           <p>Play Jelly</p>
+        </a>
+    </div>
 </section>

@@ -41,22 +41,7 @@
     font-size: 14px;
 }
 .home-link{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(3, 91, 178, 0.4);
-        border-radius: 24px;
-        border: none;
-        width: 240px;
-        height: 56px;
-        box-shadow: 0 2px 2px 0 rgba(54, 22, 122, 0.5);
-            background: linear-gradient(180deg, #68d0e3 0%, #035bb2 100%);
-            font-family: "Prompt", sans-serif;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 1.3;
-                color: #fafafa;
-                margin-top: 6px;
+  margin-top: 6px;
 }
 @media only screen and (min-width: 1440px) {
   .home-img{
@@ -380,4 +365,158 @@ width: 313px;
       width: 200px;
       height: 104px;
   }
+}
+/* Demo */
+.demo-section {
+background: linear-gradient(180deg, #36167a 0%, #68d0e3 100%);}
+
+.demo-container {
+  position: relative;
+}
+.play-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.demo-wrapper {
+  position: relative;
+  max-width: 1200px;
+  margin: 24px auto 0;
+  height: 622px;
+}
+
+.game-img {
+width: 323px;
+  height: 622px;
+}
+
+/* ===== КНОПКА ===== */
+
+.demo-btn {
+  position: absolute;
+  z-index: 10;
+  display: inline-block;
+  cursor: pointer;
+  top: 80%;
+  left: 50%;
+border: 1px solid rgba(3, 91, 178, 0.4);
+  border-radius: 24px;
+  width: 240px;
+  height: 56px;
+  box-shadow: 0 2px 2px 0 rgba(54, 22, 122, 0.5);
+    background: linear-gradient(180deg, #68d0e3 0%, #035bb2 100%);
+border: none;
+padding: 17px 38px;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out;
+
+
+}
+.demo-btn:hover{
+scale: 1.1;
+left: 53%;
+}
+/* ===== ФОН ===== */
+
+.game-img {
+  width: 100%;
+  display: block;
+}
+
+/* ===== IFRAME ===== */
+
+.iframe-wrapper {
+  position: absolute;
+  top: 3%;
+  left: 40%;
+  transform: translateX(-48%);
+  width: 68%;
+  height: 54%;
+  z-index: 20;
+
+  /* 🔥 ГОЛОВНЕ ВИПРАВЛЕННЯ */
+  pointer-events: none;
+}
+
+#gameIframe {
+  width: 125%;
+  height: 174%;
+  border: none;
+  display: none;
+  background: #000;
+  border-radius: 30px;
+}
+
+/* АКТИВНИЙ СТАН */
+.iframe-wrapper.active {
+  pointer-events: auto;
+}
+
+#gameIframe.active {
+  display: block;
+}
+
+/* ===== КНОПКА ЗАКРИТТЯ ===== */
+
+#closeIframeBtn {
+  position: absolute;
+  top: 20px;
+  right: -50px;
+
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  display: none;
+
+  z-index: 9999;
+  /* 🔥 НАД iframe */
+  pointer-events: auto;
+}
+
+#closeIframeBtn.active {
+  display: block;
+}
+
+.close-img {
+  width: 24px;
+  height: 24px;
+
+}
+@media only screen and (min-width: 1440px) {
+  .demo-wrapper {
+      position: relative;
+      max-width: 1200px;
+      margin: 24px auto 0;
+      height: 682px;
+    }
+  
+    .game-img {
+width: 942px;
+  height: 682px;
+  margin-left: auto;
+  margin-right: auto;
+    }
+        .iframe-wrapper {
+          position: absolute;
+          top: 5%;
+          left: 46%;
+          transform: translateX(-48%);
+          width: 68%;
+          height: 54%;
+          z-index: 20;
+    
+          /* 🔥 ГОЛОВНЕ ВИПРАВЛЕННЯ */
+          pointer-events: none;
+        }
+    
+        #gameIframe {
+          width: 107%;
+          height: 166%;
+          border: none;
+          display: none;
+          background: #000;
+          border-radius: 20px;
+        }
 }
