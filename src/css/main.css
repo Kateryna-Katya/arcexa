@@ -329,3 +329,39 @@ width: 313px;
   }
 }
 /* Why It Stands Out */
+.why-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.why-list{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.why-item{
+  border-radius: 16px;
+    padding: 16px 46px;
+    width: 323px;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.why-item-one{
+  background: #6737cc;
+}
+.why-item-two{
+  background: #aa29aa;
+}
+.why-item-three{
+  background: #df7511;
+}
+.why-item-four{
+  background: #04a13d;
+}
+.why-item-five{
+  background: #6a0785;
+}
