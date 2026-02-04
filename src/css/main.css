@@ -520,3 +520,38 @@ width: 942px;
           border-radius: 20px;
         }
 }
+/* The jellies */
+.stop-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.stop-wrapper{
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+}
+@media only screen and (min-width: 1440px) {
+  .stop-container{
+    flex-direction: row;
+    gap: 48px;
+    width: 874px;
+      height: 181px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .stop-wrapper{
+width: 584px;
+align-items: start;
+  }
+  .stop-subtitle{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+  }
+  .stop-text{
+  text-align: left;
+  }
+}
