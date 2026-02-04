@@ -146,3 +146,49 @@ width: 1280px;
     height: 673px;
   }
 }
+/* Meet The Jellies */
+.four-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.four-text{
+    margin-top: 24px;
+    margin-bottom: 32px;
+    width: 303px;
+}
+.four-list{
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.four-item{
+    width: 163px;
+        height: 74px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+}
+.four-title-item{
+    font-family: "Grandstander", sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        text-align: center;    
+}
+.four-title-item-one{
+        color: #f53ca2;
+}
+.four-title-item-two{
+    color: #68d0e3;
+}
+.four-title-item-three{
+    color: #ffa328;
+}
+.four-title-item-four{
+    color: #03c65c;
+}
+.four-text-item{
+    font-size: 14px;
+}
