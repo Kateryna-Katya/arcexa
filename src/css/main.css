@@ -365,3 +365,19 @@ width: 313px;
 .why-item-five{
   background: #6a0785;
 }
+@media only screen and (min-width: 1440px) {
+  .why-list{
+    margin-top: 8px;
+    flex-direction: row;
+    width: 1110px;
+      height: 104px;
+      justify-content: center;
+      gap: 27px;
+  }
+  .why-item{
+    border-radius: 16px;
+      padding: 16px;
+      width: 200px;
+      height: 104px;
+  }
+}
