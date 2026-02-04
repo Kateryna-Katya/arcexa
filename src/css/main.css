@@ -129,3 +129,20 @@ font-weight: 500;
     width: 785px;
 }
 }
+/* Jelly */
+.jelly-section{
+    background: linear-gradient(180deg, #36167a 0%, #68d0e3 100%);
+}
+.jelly-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+@media only screen and (min-width: 1440px) {
+  .jelly-img{
+    margin-top: 16px;
+width: 1280px;
+    height: 673px;
+  }
+}
