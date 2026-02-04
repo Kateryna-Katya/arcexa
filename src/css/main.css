@@ -246,3 +246,16 @@ width: 1280px;
     width: 693px;
   }
 }
+/* Power */
+.power-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.power-subtitle{
+  width: 313px;
+}
+.power-text{
+width: 313px;
+}
