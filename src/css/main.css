@@ -259,3 +259,40 @@ width: 1280px;
 .power-text{
 width: 313px;
 }
+.desk{
+  display: none;
+}
+@media only screen and (min-width: 1440px) {
+  .power-subtitle{
+    width: 784px;
+  }
+  .power-text{
+    width: 784px;
+  }
+  .desk{
+    display: block;
+  }
+}
+/* energy */
+.energy-section{
+  background: linear-gradient(180deg, #36167a 0%, #68d0e3 100%);
+}
+.energy-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.energy-img{
+  margin-top: 8px;
+}
+@media only screen and (min-width: 1440px) {
+  .energy-text{
+    width: 784px;
+  }
+  .energy-img{
+    margin-top: 16px;
+    width: 1280px;
+      height: 720px;
+  }
+}
