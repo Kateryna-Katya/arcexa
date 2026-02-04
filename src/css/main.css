@@ -386,7 +386,7 @@ background: linear-gradient(180deg, #36167a 0%, #68d0e3 100%);}
   height: 622px;
 }
 
-.game-img {
+.play-img {
 width: 323px;
   height: 622px;
 }
@@ -419,10 +419,7 @@ left: 53%;
 }
 /* ===== ФОН ===== */
 
-.game-img {
-  width: 100%;
-  display: block;
-}
+
 
 /* ===== IFRAME ===== */
 
@@ -492,7 +489,7 @@ left: 53%;
       height: 682px;
     }
   
-    .game-img {
+    .play-img {
 width: 942px;
   height: 682px;
   margin-left: auto;
