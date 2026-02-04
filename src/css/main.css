@@ -192,3 +192,21 @@ width: 1280px;
 .four-text-item{
     font-size: 14px;
 }
+@media only screen and (min-width: 1440px) {
+  .mob{
+    display: none;
+  }
+  .four-text{
+    width: 628px;
+  }
+  .four-list{
+    gap: 24px;
+  }
+  .four-item{
+    width: 200px;
+        height: 80px;
+  }
+  .four-text-item{
+    font-size: 16px;
+  }
+}
