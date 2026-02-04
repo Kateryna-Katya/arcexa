@@ -50,11 +50,12 @@
   .home-section{
     background-image: url("/img/hero/desk.png");
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: top 62px  center;
     background-size: cover;
+    
   }
   .home-container{
-    padding-top: 104px;
+    padding-top: 162px;
     padding-bottom: 92px;
   }
   .home-wrapper{
